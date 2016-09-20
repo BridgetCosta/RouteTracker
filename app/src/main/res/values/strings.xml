@@ -1,0 +1,36 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Route Tracker</string>
+    <string name="tools_date">Date</string>
+    <string name="tools_start_time">Start</string>
+    <string name="tools_stop_time">Stop</string>
+
+    <!-- Language-specific constants -->
+    <string name="today">Today</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+    <string name="title_activity_route">Map</string>
+    <string name="toggle_button_text">Track my route</string>
+
+    <!-- Activity detection strings -->
+    <string name="in_vehicle">In a vehicle</string>
+    <string name="on_bicycle">On a bicycle</string>
+    <string name="on_foot">On foot</string>
+    <string name="running">Running</string>
+    <string name="still">Still</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown">Unknown activity</string>
+    <string name="walking">Walking</string>
+
+    <string name="unidentifiable_activity">Unidentifiable activity: %1$d</string>
+
+    <string name="detected_activities_title">Detected Activities</string>
+
+    <string name="request_activity_updates">Request updates</string>
+    <string name="remove_activity_updates">Remove updates</string>
+    <string name="activity_updates_added">Activity updates added</string>
+    <string name="activity_updates_removed">Activity updates removed</string>
+</resources>
